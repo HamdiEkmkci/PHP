@@ -1,0 +1,19 @@
+{
+    "name": "hamdiekmekci/php-router",
+    "description": "this is a simple router during my php course",
+    "require": {
+        "php": "^8.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hamdiekmekci\\PhpRouter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hamdiekmekci"
+        }
+    ],
+    "minimum-stability": "dev"
+}
