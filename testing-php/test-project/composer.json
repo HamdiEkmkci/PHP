@@ -1,0 +1,22 @@
+{
+    "name": "hamdi/test-project",
+    "autoload": {
+        "psr-4": {
+            "Hamdi\\TestProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hamdi Ekmekci",
+            "email": "hamdiekmekcii34@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^2.34"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}

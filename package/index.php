@@ -1,6 +1,6 @@
 <?php
 
-require_once "./Router.php";
+require_once("./src/Router.php");
 
 // Router::handle("GET","/test","test.php");
 
@@ -9,10 +9,10 @@ require_once "./Router.php";
 // });
 
 // +++++++++++++++++++++++++++++++++++++++++++++++
-function testMe(){
-    echo "testMe function is not an anonymus function ";
-}
-Router::get("/test","testMe");
+// function testMe(){
+//     echo "testMe function is not an anonymus function ";
+// }
+// Router::get('/test','testMe');
 // +++++++++++++++++++++++++++++++++++++++++++++++
 
-// Router::get("/test","test.php");
+Router::get("/test","test.php");
